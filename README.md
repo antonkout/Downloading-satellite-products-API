@@ -1,2 +1,23 @@
-# Downloading_satellite_products_API
-A Wep Map API  for Searching and Downloading Sentinel-1, Sentinel-2, Sentinel-3 and Landsat-8 products created in Dash
+# Searching & Downloading Satellite Products API
+A Wep Map API  for Searching and Downloading <b>Sentinel-1</b>, <b>Sentinel-2</b>, <b>Sentinel-3</b> and <b>Landsat-8</b> products created in Dash. This script combines four different APIS in one user-friendly interface providing needed information of the searched products. 
+
+<b>The utilized APIs are:</b>
+  <li>The Sentinelsat that searchs and retrieves metadata of Sentinel satellite images from the Copernicus Open Access Hub. (https://sentinelsat.readthedocs.io/en/stable/)</li>
+  <li>The Google Cloud Storage for downloading Sentinel-2 orthorectified, map-projected Level-1C images containing top-of-atmosphere reflectance data. (https://cloud.google.com/storage/docs/public-datasets/sentinel-2)</li>
+  <li>The Landsatxplore which provides an interface to the EarthExplorer portal to search and download Landsat Collections scenes. (https://github.com/yannforget/landsatxplore)</li>
+<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/39597223/144752813-2b9fe956-b8b7-4c58-b249-92e51f79eca9.png" width="700" height="400" >
+</p>
+
+ <br>
+ This Webmap API combines in one script the <b>folium</b> utilities of creating a map enviroment drawing a user defined polygon of area of interest to search satellite products, together
+ with <b>dash</b> module in order to create this API and publish it localy. 
+ <br/>
+ <br>
+ 
+ 
+<b>Webmap for searching and downloading satellite imagery</b>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/39597223/144754131-e6479ebb-7b14-4211-8453-aed331367848.gif" width="500" height="400" >
+  </p>
