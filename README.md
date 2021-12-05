@@ -1,4 +1,23 @@
 # Searching & Downloading Satellite Products API
+Web Api to Search and Download satellite products.
+
+### Required Python Libraries
+------------------------------------------------
+
+```
+dash == 2.0.0
+google-cloud-bigquery == 2.20.0
+google-auth == 1.31.0
+sentinelsat == 1.0.1
+folium == 0.12.1
+geopandas == 0.9.0
+shapely == 1.7.1
+landsatxplore == 0.12.1
+pyproj == 2.6.1
+```
+
+### Description
+------------------------------------------------
 A Wep Map API  for Searching and Downloading <b>Sentinel-1</b>, <b>Sentinel-2</b>, <b>Sentinel-3</b> and <b>Landsat-8</b> products created in Dash. This script combines four different APIS in one user-friendly interface providing needed information of the searched products. 
 
 <b>The utilized APIs are:</b>
@@ -19,8 +38,9 @@ In order to download Sentinel-2 imagery from google cloud storage a key_json fil
  <br/>
  <br>
  
- 
-<b>Webmap for searching and downloading satellite imagery</b>
+ ### Webmap for searching and downloading satellite imagery
+------------------------------------------------
+ <br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/39597223/144754131-e6479ebb-7b14-4211-8453-aed331367848.gif" width="500" height="400" >
   </p>
